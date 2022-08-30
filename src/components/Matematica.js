@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Design = ({ livros }) => (
   <main className="principal">
-    <h2>Categoria Design</h2>
+    <h2>Categoria Matemática</h2>
     {livros
       .filter((cat) => cat.categoria === "matematica")
       .map((livro) => (
